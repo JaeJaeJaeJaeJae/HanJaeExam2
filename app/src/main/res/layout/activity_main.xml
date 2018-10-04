@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/box2"
+        android:layout_width="247dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="256dp"
+        android:background="#DDDDDD"
+        android:text=" MEME GRANDPA #2 \n\n Pres. Duterte has invented \n the DAB!!! \n Inflation rate goes up to 6.4%! \n\n\n ''I yeet on em drug users''\n                 -Dabterte 2048"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent" /><![CDATA[
+
+    "
+        android:layout_width="247dp"
+        android:layout_height="111dp"
+        android:text="Test"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    ]]>
+
+    <TextView
+        android:id="@+id/box"
+        android:layout_width="247dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="#DDDDDD"
+        android:text=" MEME GRANDPA #1 \n\n this is old man henry. \n he is tired, \n but he is happy. \n Ok, maybe a bit creepy. \n\n too busy figuring out how to use\n his smartphone "
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/box2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/box3"
+        android:layout_width="247dp"
+        android:layout_height="106dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="124dp"
+        android:background="#DDDDDD"
+        android:text=" MEME GRANDPA #3 \n\n Dr. Sack is a renowned memeologist. \n He has a PhD in Meme Science. \n\n According to Dr. Sack himself, his \n greatest achievement \n was raising up \n and nurturing a well known \n Meme Connosieur, Bilthy Brank."
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box2"
+        app:layout_constraintVertical_bias="0.629" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="102dp"
+        android:layout_height="97dp"
+        app:layout_constraintBottom_toBottomOf="@+id/box"
+        app:layout_constraintEnd_toEndOf="@+id/box"
+        app:layout_constraintHorizontal_bias="0.986"
+        app:layout_constraintStart_toStartOf="@+id/box"
+        app:layout_constraintTop_toTopOf="@+id/box"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/old" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="113dp"
+        android:layout_height="128dp"
+        android:layout_marginBottom="256dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/box2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/box2"
+        app:layout_constraintTop_toTopOf="@+id/box2"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/dabterte" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="111dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/box3"
+        app:layout_constraintHorizontal_bias="0.985"
+        app:layout_constraintStart_toStartOf="@+id/box3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/sack" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="process"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnMap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="process"
+        android:text="MAP"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.756"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box3"
+        app:layout_constraintVertical_bias="0.866" />
+
+</android.support.constraint.ConstraintLayout>
